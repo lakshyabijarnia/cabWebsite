@@ -18,8 +18,8 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
         <nav>
           <ul className="flex space-x-6">
             <li><Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Home</Link></li>
-            <li><a href="#services" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Services</a></li>
-            <li><a href="#booking" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Book Now</a></li>
+            <li><Link to ="/services" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Services</Link></li>
+            <li><Link to="/booknow" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Book Now</Link></li>
             <li><Link to="/login" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Login</Link></li>
             <li><Link to="/signup" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors duration-300">Signup</Link></li>
           </ul>
